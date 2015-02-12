@@ -202,6 +202,12 @@ h3, h3 a {
     .controller_help ul {
         margin-left: 10px;
     }
+    .controller_help li {
+        text-align: left;
+    }
+    .controller_help h1 {
+        text-align: left;
+    }
     .controller_help h3 {
         color: #E94E00;
         text-decoration: none;
