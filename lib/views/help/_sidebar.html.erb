@@ -13,13 +13,13 @@
     <h3><%= link_to_unless_current _("Guía para solicitantes"), help_requesting_path %></h3>
     <ul class="no_bullets">
         <li><%= link_to _("Solicitar información"), help_requesting_path(:anchor => 'making_requests') %></li>
-        <li><%= link_to _("Localizar la institución adecuada"), help_requesting_path(:anchor => 'finding_bodies') %></li>
-        <li><%= link_to _("Idiomas"), help_requesting_path(:anchor => 'languages') %></li>
-        <li><%= link_to _("Consejos sobre las solicitudes"), help_requesting_path(:anchor => 'tips') %></li>
-        <li><%= link_to _("Respuestas y apelaciones"), help_requesting_path(:anchor => 'answers_appeals') %></li>
-        <li><%= link_to _("Moderación de las solicitudes"), help_requesting_path(:anchor => 'request_moderation') %></li>
+        <li><%= link_to _("Respuestas"), help_requesting_path(:anchor => 'responses') %></li>
+        <li><%= link_to _("Recursos"), help_requesting_path(:anchor => 'answers_appeals') %></li>
+        <li><%= link_to _("En Tuderechoasaber.es"), help_requesting_path(:anchor => 'tdas') %></li>
+        <li><%= link_to _("UE y otros países"), help_requesting_path(:anchor => 'other_countries') %></li>
+        <li><%= link_to _("Plantillas para recursos"), help_requesting_path(:anchor => 'appeal_templates') %></li>
     </ul>
-            
+
     <h3><%= link_to_unless_current _("Tu privacidad"), help_privacy_path %></h3>
     
     <h3><%= link_to_unless_current _("Información para instituciones"), help_officers_path %></h3>
