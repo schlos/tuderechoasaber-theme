@@ -1,0 +1,8 @@
+<%= raw @info_request.public_body.name %> no ha contestado a tu petición.
+
+Este organismo no ha respondido a tu solicitud '<%= @info_request.title %>' [1] en el plazo de un mes, como marca la ley. Si crees que deberían haber respondido a tu petición, puedes presentar un recurso [2] ante el Consejo de la Transparencia. Tienes un mes para hacerlo. Si tienes alguna duda, escríbenos a contacto@tuderechoasaber.es.
+
+[1]: Aquí puedes revisar tu solicitud: <%=@url%>
+[2]: Aquí te damos más información sobre recursos: <%= help_requesting_url(:anchor => 'answers_appeals') %>
+
+-- <%= _('the {{site_name}} team', :site_name=>site_name) %>
